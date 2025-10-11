@@ -1,0 +1,22 @@
+ <img
+        src="/profile.png"
+        alt="Profile"
+        class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 rounded-[2rem] border-4 border-[var(--accent-color)] shadow-lg object-cover"
+      />
+line 147 to 151 is updated in the hero.astro but the profile need some changes
+
+
+<div class="flex justify-center mt-10">
+  <img
+    src="/profile.png"
+    alt="Profile"
+    class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 rounded-[2rem] border-2 border-[var(--accent-color)] shadow-lg object-cover"
+  />
+</div>
+
+<img
+        src="/profile.png"
+        alt="Profile"
+        class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 rounded-[2rem] border-2 border-[var(--accent-color)] shadow-lg object-cover"
+        class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 rounded-[2rem] border-2 border-[var(--accent-color)] shadow-lg object-cover"
+/>

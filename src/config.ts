@@ -9,9 +9,9 @@ export const siteConfig = {
   //   twitter: "https://x.com/rfitzio",
   //   github: "https://github.com/RyanFitzgerald",
   name: "K Satya Narayana Rao",
-  title: "Software Engineer",
+  title: "Frontend Developer",
   description: "Portfolio website of K Satya Narayana ",
-  accentColor: "#1d4ed8",
+  accentColor: "#5c5adb",
   social: {
     email: "your-email@example.com",
     linkedin: "https://linkedin.com/in/yourprofile",
@@ -19,29 +19,29 @@ export const siteConfig = {
     github: "https://github.com/RyanFitzgerald",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
+    "Hi, I'm K. Satya Narayana Rao — a passionate Computer Science student specializing in Artificial Intelligence and Machine Learning at SRM University, AP. I enjoy building full-stack web applications and developing intelligent systems using technologies like React JS, Node.js, and TensorFlow. My work includes projects on biomedical image classification, blog platforms, and photography contests with live voting. I’m eager to grow as a software developer and contribute to impactful, real-world tech solutions.",
   skills: ["Javascript", "React", "Node.js", "Python", "DBMS", "GIT"],
   projects: [
     {
       name: "Photography Contest",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+        "Developed a full-stack Photography Contest Platform using MERN. With Authentication which enabling users to participate and vote in live contests. Integrated image uploads, real-time voting, and admin controls for winner selection. Implemented email notifications and a responsive, user-friendly interface.",
       link: "https://photography-contest-phi.vercel.app",
       skills: ["React", "Node.js", "Express.js", "MongoDB","Redux"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Robust Biomedical Image Classification Using Fuzzy Weighted Ensemble of Deep Neural Networks.",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Implemented  a biomedical image classification system using ensemble deep learning with TensorFlow. Implemented Fuzzy Weighted Majority Voting (FWMV) to enhance model confidence and accuracy. Trained and evaluated multiple architectures like ResNet50, DenseNet121, and ConvNeXt-Tiny. Achieved improved performance and robustness in medica image analysis through fuzzy-based weighting.",
+      link: "https://drive.google.com/file/d/1ZhVusUk7AFuKebfblrst3KLw1dkrVAum/view",
+      skills: ["Tensorflow","CNN","Ensemble Learning","Deep Learning Models"],
     },
     {
-      name: "ExtensionKit",
+      name: "Full Stack Blog App",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Built a Full Stack Blog Application using the MERN stack (MongoDB, Express, React, Node.js). Enabled users to create, edit, delete, and view blog posts with secure JWT authentication. Designed a responsive and intuitive interface for smooth user experience across all devices. Integrated RESTful APIs and optimized database operations for fast, scalable performance.",
+      link: "https://github.com/satyaK0729/Blog-App-Full-Stack",
+      skills: ["React", "Node.js", "Express.js","JWT","REST API's","MongoDB"],
     },
   ],
   experience: [

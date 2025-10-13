@@ -59,12 +59,11 @@ export const siteConfig = {
   education: [
     {
       school: "SRM UNIVERSITY, AP",
-      degree: "Bachelor of Science in Computer Science",
+      degree: "Bachelor of Techonolgy",
       dateRange: "2021 - 2025",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Course: Computer Science and Engineering",
+        "Specilization: Ai and Ml",
       ],
     },
     {

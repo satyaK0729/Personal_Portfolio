@@ -35,3 +35,60 @@ class="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 rounded-[2rem] 
 line 163 modified
 class="absolute bottom-0 left-0 right-0 p-8 sm:p-12 md:p-24 flex gap-x-4 sm:gap-x-6 md:gap-x-8 text-gray-700 animate-fade-in animation-delay-600"
 
+---
+// filepath: src/components/Resume.astro
+import { siteConfig } from '../config';
+
+const resumeLink = siteConfig.resumeLink;
+
+// const resumeLink = siteConfig.projects.find(
+//   (p) => p.name === "Robust Biomedical Image Classification Using Fuzzy Weighted Ensemble of Deep Neural Networks."
+// )?.link;
+---
+<div style="display: flex; flex-direction: column; align-items: center; margin: 2rem 0;">
+  <!-- <h2 style="margin-bottom: 1rem;">Resume</h2> -->
+  <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">Resume</h2>
+  <a
+    href={resumeLink}
+    target="_blank"
+    rel="noopener noreferrer"
+    style="display: inline-block; text-decoration: none;"
+    aria-label="View Resume PDF"
+  >
+    <div
+      style="
+        width: 350px;
+        height: 500px;
+        background: #f3f3f3 url('https://cdn-icons-png.flaticon.com/512/337/337946.png') center/80px no-repeat;
+        border-radius: 12px;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+        filter: blur(4px) grayscale(0.3);
+        transition: filter 0.3s;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      "
+      onmouseover="this.style.filter='blur(0px) grayscale(0)'"
+      onmouseout="this.style.filter='blur(4px) grayscale(0.3)'"
+    >
+      <span
+        style="
+          position: absolute;
+          bottom: 24px;
+          left: 0;
+          right: 0;
+          text-align: center;
+          color: #222;
+          font-weight: bold;
+          background: rgba(255,255,255,0.7);
+          padding: 0.5rem 0;
+          border-radius: 0 0 12px 12px;
+        "
+      >
+        Click to View Resume
+      </span>
+    </div>
+  </a>
+</div>

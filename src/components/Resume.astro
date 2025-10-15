@@ -1,0 +1,45 @@
+---
+import { siteConfig } from '../config';
+
+const resumeLink = siteConfig.resumeLink;
+---
+<section id="resume" class="p-8 sm:p-12 md:p-16 lg:p-24">
+  <div>
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
+      <div class="lg:col-span-4">
+        <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+          Resume
+        </h2>
+        <div
+          class="w-[75px] h-[5px] mt-2 rounded-full"
+          style={`background-color: ${siteConfig.accentColor}`}
+        />
+      </div>
+      <div class="lg:col-span-8 flex flex-col items-center">
+        <a
+          href={resumeLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="View Resume PDF"
+          class="group"
+        >
+          <div
+            class="relative w-[350px] h-[500px] bg-gray-100 rounded-xl shadow-md border border-gray-200 flex items-center justify-center cursor-pointer overflow-hidden transition-shadow hover:shadow-lg"
+          >
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/337/337946.png"
+              alt="Resume Preview"
+              class="w-20 h-20 opacity-100 transition-all duration-300"
+            />
+            <span
+              class="absolute bottom-6 left-0 right-0 text-center text-base font-semibold bg-white/80 px-4 py-2 rounded-b-xl"
+            >
+              Click to View Resume
+            </span>
+            <div class="absolute inset-0 bg-white/60 group-hover:bg-transparent transition-all "></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

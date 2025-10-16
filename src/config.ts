@@ -1,26 +1,17 @@
 export const siteConfig = {
-  // name: "Ryan Fitzgerald",
-  // title: "Senior Software Engineer",
-  // description: "Portfolio website of Ryan Fitzgerald",
-  // accentColor: "#1d4ed8",
-  // social: {
-  //   email: "your-email@example.com",
-  //   linkedin: "https://linkedin.com/in/yourprofile",
-  //   twitter: "https://x.com/rfitzio",
-  //   github: "https://github.com/RyanFitzgerald",
   name: "K Satya Narayana Rao",
   title: "Frontend Developer",
   description: "Portfolio website of K Satya Narayana ",
   accentColor: "#5c5adb",
   social: {
     email: "satyak0729@gmail.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
+    linkedin: "https://www.linkedin.com/in/satya-narayana-2003aa246/",
     twitter: "https://x.com/rfitzio",
     github: "https://github.com/RyanFitzgerald",
   },
   aboutMe:
-    "Hi, I'm K. Satya Narayana Rao — a passionate Computer Science student specializing in Artificial Intelligence and Machine Learning at SRM University, AP. I enjoy building full-stack web applications and developing Real-world systems using technologies like React JS, Node.js, Javascript . My work includes projects like Photography contests with voting, blog platforms, and biomedical image classification I'm eager to grow as a software developer and contribute to impactful, real-world tech solutions.",
-  skills: ["Javascript", "React", "Node.js", "Python", "DBMS", "GIT"],
+    "Hi, I'm K. Satya Narayana Rao — Iam a Computer Science major specializing in Ai and Ml at SRM University, AP. I build few full-stack web applications using technologies like React JS, Node.js, Express.js, Javascript . My work includes projects like Photography contests with voting, blog platform, and biomedical image classification. I'm eager to grow as a software developer and contribute some impactful, real-world solutions.",
+  skills: ["Skills :-","Javascript", "React", "Node.js","MERN", "Python", "DBMS", "GIT"],
   projects: [
     {
       name: "Photography Contest",
@@ -46,36 +37,26 @@ export const siteConfig = {
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
+      company: "TechNook",
+      title: "Python intern",
       dateRange: "Jan 2022 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Acquired proficiency in Python Libraries and Django Web Framework Worked on Developing the e-commerce website using HTML, CSS (Frontend) and Python as (Backend)",
+        "Email sender Web App contains the Authentication. Sending the 100 E-mails by the SMTP using the SendGrid .",
       ],
     }
   ],
   education: [
     {
       school: "SRM UNIVERSITY, AP",
-      degree: "Bachelor of Techonolgy",
+      degree: "Bachelor of Techonolgy  B.Tech" ,
       dateRange: "2021 - 2025",
       achievements: [
         "Course: Computer Science and Engineering",
         "Specilization: Ai and Ml",
       ],
-    },
-    {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
-    },
+    }
+    
   ],
   resumeLink: "https://drive.google.com/file/d/1himcmgi1ElBIC8PezA6m44E_7JRBPtKm/view?usp=sharing",
 };

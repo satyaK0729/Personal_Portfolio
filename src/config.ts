@@ -77,5 +77,5 @@ export const siteConfig = {
       ],
     },
   ],
-  resumeLink: "https://drive.google.com/file/d/1ZhVusUk7AFuKebfblrst3KLw1dkrVAum/view",
+  resumeLink: "https://drive.google.com/file/d/1himcmgi1ElBIC8PezA6m44E_7JRBPtKm/view?usp=sharing",
 };

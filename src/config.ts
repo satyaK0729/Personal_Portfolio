@@ -6,7 +6,7 @@ export const siteConfig = {
   social: {
     email: "satyak0729@gmail.com",
     linkedin: "https://www.linkedin.com/in/satya-narayana-2003aa246/",
-    twitter: "https://x.com/rfitzio",
+    twitter: "https://x.com/",
     github: "https://github.com/RyanFitzgerald",
   },
   aboutMe:
@@ -39,7 +39,7 @@ export const siteConfig = {
     {
       company: "TechNook",
       title: "Python intern",
-      dateRange: "Jan 2022 - Present",
+      dateRange: "Sep 2023 - Nov 2023",
       bullets: [
         "Acquired proficiency in Python Libraries and Django Web Framework Worked on Developing the e-commerce website using HTML, CSS (Frontend) and Python as (Backend)",
         "Email sender Web App contains the Authentication. Sending the 100 E-mails by the SMTP using the SendGrid .",
@@ -58,5 +58,5 @@ export const siteConfig = {
     }
     
   ],
-  resumeLink: "https://drive.google.com/file/d/1himcmgi1ElBIC8PezA6m44E_7JRBPtKm/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1Dc-yURN51g5fwEPnTBht0Jh4huGjqMcq/view?usp=sharing",
 };

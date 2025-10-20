@@ -2,12 +2,20 @@ export const siteConfig = {
   name: "K Satya Narayana Rao",
   title: "Frontend Developer",
   description: "Portfolio website of K Satya Narayana ",
-  accentColor: "#5c5adb",
+  accentColor: "#3db14d",
+  accentColors: [
+    "#3db14d", // Green
+    "#4d8adb", // Blue
+    "#db4d4d", // Red
+    "#9c4ddb", // Purple
+    "#dba84d", // Orange
+    "#4ddbdb", // Cyan
+  ],
   social: {
     email: "satyak0729@gmail.com",
     linkedin: "https://www.linkedin.com/in/satya-narayana-2003aa246/",
     twitter: "https://x.com/",
-    github: "https://github.com/RyanFitzgerald",
+    github: "https://github.com/satyaK0729",
   },
   aboutMe:
     "Hi, I'm K. Satya Narayana Rao — Iam a Computer Science major specializing in Ai and Ml at SRM University, AP. I build few full-stack web applications using technologies like React JS, Node.js, Express.js, Javascript . My work includes projects like Photography contests with voting, blog platform, and biomedical image classification. I'm eager to grow as a software developer and contribute some impactful, real-world solutions.",

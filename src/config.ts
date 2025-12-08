@@ -26,7 +26,14 @@ export const siteConfig = {
       description:
         "Developed a full-stack Photography Contest Platform using MERN. With Authentication which enabling users to participate and vote in live contests. Integrated image uploads, real-time voting, and admin controls for winner selection. Implemented email notifications and a responsive, user-friendly interface.",
       link: "https://photography-contest-phi.vercel.app",
-      skills: ["React", "Node.js", "Express.js", "MongoDB", "Redux"],
+      Tools: ["React", "Node.js", "Express.js", "MongoDB", "Redux"],
+    },
+    {
+      name: "BigQuery: Target E-Commerce Performance Analytics",
+      description:
+        "Developed and implemented an end-to-end analytics solution on a dataset of over 100,000 e-commerce orders for a target e-commerce platform using Google BigQuery. The project involved ingesting, normalizing, and analyzing data from 8 interconnected tables, ultimately generating key performance indicators (KPIs) for optimizing delivery performance and logistics",
+      link: "https://github.com/satyaK0729/Target-Sql-Analysis",
+      skills: ["BigQuery", "Google Cloud PLatform (GCP)", "Github"],
     },
     {
       name: "Robust Biomedical Image Classification Using Fuzzy Weighted Ensemble of Deep Neural Networks.",
@@ -47,7 +54,7 @@ export const siteConfig = {
     {
       company: "TechNook",
       title: "Python intern",
-      dateRange: "Sep 2023 - Nov 2023",
+      dateRange: "Sep 2024 - Nov 2024",
       bullets: [
         "Acquired proficiency in Python Libraries and Django Web Framework Worked on Developing the e-commerce website using HTML, CSS (Frontend) and Python as (Backend)",
         "Email sender Web App contains the Authentication. Sending the 100 E-mails by the SMTP using the SendGrid .",
@@ -66,5 +73,5 @@ export const siteConfig = {
     }
     
   ],
-  resumeLink: "https://drive.google.com/file/d/1Dc-yURN51g5fwEPnTBht0Jh4huGjqMcq/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1FeFD5ooZnzT2yWRE9_BFF5aG8aJdB9Ht/view?usp=sharing",
 };
